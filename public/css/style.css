@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Slabion';
+    src: url('/css/slabion/SlabionPersonalUseOnly.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Slabion', serif;
+    font-size: 18px;
+    font-weight: 300;
+    --white-color: #ffffff;
+    --green-color:#00809D;
+    --black-color:black;
+    --beige-color:#FCECDD;
+}
+
+#playground {
+  background: var(--white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-effects {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 20px;
+  border-bottom: 1px solid var(--green-color);
+}
+
+.main-effects::-webkit-scrollbar {
+  display: none;
+}
+
+.effect-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: var(--black-color);
+  color: var(--white-color);
+  font-size: 11px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+ .effect-button.active {
+  background: var(--green-color);
+}
+
+.sub-box{
+  padding: 20px;
+  border-bottom: 1px solid var(--green-color);
+}
+ .sub-effects {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.sub-effects.show {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+ .sub-effect {
+  background: var(--beige-color);
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.sub-effect.active {
+  background: var(--green-color);
+  color: var(--white-color);
+}
+
+.container {
+  display: flex;
+  padding:40px 20px;
+  background-color: var(--beige-color);
+}
+
+.css-box {
+  border: 1px solid var(--green-color);
+  border-radius: 8px;
+  padding: 15px;
+  font-family: monospace;
+  background: var(--green-color);
+  color: var(--white-color);
+  text-align: left;
+  height: 50vh;
+  width: 300px;
+}
+
+ .copy-btn {
+  background: var(--black-color);
+  color: var(--white-color);
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  float: right;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+#previewBox {
+  width: 150px;
+  height: 150px;
+  background-color: var(--green-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+#preview-container {
+  display: flex;
+  align-items: center;     
+  justify-content: center;
+  height: 300px;            
+  flex: 1;
+  background-color: var(--beige-color);
+  padding: 20px;
+}

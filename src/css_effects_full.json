@@ -1,0 +1,1789 @@
+{
+  "effects": [
+    {
+      "name": "scale-up",
+      "subEffects": [
+        {
+          "name": "scale-up-center",
+          "css": {
+            "transform": "scale(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "center"
+          }
+        },
+        {
+          "name": "scale-up-top",
+          "css": {
+            "transform": "scale(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top"
+          }
+        },
+        {
+          "name": "scale-up-right",
+          "css": {
+            "transform": "scale(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "right"
+          }
+        },
+        {
+          "name": "scale-up-br",
+          "css": {
+            "transform": "scale(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom right"
+          }
+        },
+        {
+          "name": "scale-up-bl",
+          "css": {
+            "transform": "scale(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom left"
+          }
+        },
+        {
+          "name": "scale-up-left",
+          "css": {
+            "transform": "scale(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "left"
+          }
+        },
+        {
+          "name": "scale-up-bottom",
+          "css": {
+            "transform": "scale(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom"
+          }
+        },
+        {
+          "name": "scale-up-tr",
+          "css": {
+            "transform": "scale(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top right"
+          }
+        },
+        {
+          "name": "scale-up-tl",
+          "css": {
+            "transform": "scale(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top left"
+          }
+        },
+        {
+          "name": "scale-up-ver-top",
+          "css": {
+            "transform": "scaleY(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top"
+          }
+        },
+        {
+          "name": "scale-up-ver-bottom",
+          "css": {
+            "transform": "scaleY(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom"
+          }
+        },
+        {
+          "name": "scale-up-ver-center",
+          "css": {
+            "transform": "scaleY(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "center"
+          }
+        },
+        {
+          "name": "scale-up-hor-center",
+          "css": {
+            "transform": "scaleX(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "center"
+          }
+        },
+        {
+          "name": "scale-up-hor-right",
+          "css": {
+            "transform": "scaleX(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "right"
+          }
+        },
+        {
+          "name": "scale-up-hor-left",
+          "css": {
+            "transform": "scaleX(1.2)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "left"
+          }
+        }
+      ]
+    },
+    {
+      "name": "scale-down",
+      "subEffects": [
+        {
+          "name": "scale-down-center",
+          "css": {
+            "transform": "scale(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "center"
+          }
+        },
+        {
+          "name": "scale-down-top",
+          "css": {
+            "transform": "scale(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top"
+          }
+        },
+        {
+          "name": "scale-down-bottom",
+          "css": {
+            "transform": "scale(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom"
+          }
+        },
+        {
+          "name": "scale-down-left",
+          "css": {
+            "transform": "scale(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "left"
+          }
+        },
+        {
+          "name": "scale-down-right",
+          "css": {
+            "transform": "scale(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "right"
+          }
+        },
+        {
+          "name": "scale-down-tl",
+          "css": {
+            "transform": "scale(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top left"
+          }
+        },
+        {
+          "name": "scale-down-tr",
+          "css": {
+            "transform": "scale(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top right"
+          }
+        },
+        {
+          "name": "scale-down-bl",
+          "css": {
+            "transform": "scale(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom left"
+          }
+        },
+        {
+          "name": "scale-down-br",
+          "css": {
+            "transform": "scale(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom right"
+          }
+        },
+        {
+          "name": "scale-down-hor-center",
+          "css": {
+            "transform": "scaleX(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "center"
+          }
+        },
+        {
+          "name": "scale-down-hor-left",
+          "css": {
+            "transform": "scaleX(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "left"
+          }
+        },
+        {
+          "name": "scale-down-hor-right",
+          "css": {
+            "transform": "scaleX(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "right"
+          }
+        },
+        {
+          "name": "scale-down-ver-center",
+          "css": {
+            "transform": "scaleY(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "center"
+          }
+        },
+        {
+          "name": "scale-down-ver-top",
+          "css": {
+            "transform": "scaleY(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top"
+          }
+        },
+        {
+          "name": "scale-down-ver-bottom",
+          "css": {
+            "transform": "scaleY(0.9)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotate",
+      "subEffects": [
+        {
+          "name": "rotate-center",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "center"
+          }
+        },
+        {
+          "name": "rotate-top",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top"
+          }
+        },
+        {
+          "name": "rotate-bottom",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom"
+          }
+        },
+        {
+          "name": "rotate-left",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "left"
+          }
+        },
+        {
+          "name": "rotate-right",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "right"
+          }
+        },
+        {
+          "name": "rotate-tl",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top left"
+          }
+        },
+        {
+          "name": "rotate-tr",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top right"
+          }
+        },
+        {
+          "name": "rotate-bl",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom left"
+          }
+        },
+        {
+          "name": "rotate-br",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom right"
+          }
+        },
+        {
+          "name": "rotate-hor-center",
+          "css": {
+            "transform": "rotateX(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "center"
+          }
+        },
+        {
+          "name": "rotate-hor-top",
+          "css": {
+            "transform": "rotateX(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top"
+          }
+        },
+        {
+          "name": "rotate-hor-bottom",
+          "css": {
+            "transform": "rotateX(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom"
+          }
+        },
+        {
+          "name": "rotate-vert-center",
+          "css": {
+            "transform": "rotateY(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "center"
+          }
+        },
+        {
+          "name": "rotate-vert-left",
+          "css": {
+            "transform": "rotateY(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "left"
+          }
+        },
+        {
+          "name": "rotate-vert-right",
+          "css": {
+            "transform": "rotateY(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "right"
+          }
+        },
+        {
+          "name": "rotate-diagonal-tl",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top left"
+          }
+        },
+        {
+          "name": "rotate-diagonal-tr",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "top right"
+          }
+        },
+        {
+          "name": "rotate-diagonal-bl",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom left"
+          }
+        },
+        {
+          "name": "rotate-diagonal-br",
+          "css": {
+            "transform": "rotate(15deg)",
+            "transition": "transform 0.3s ease-in-out",
+            "transform-origin": "bottom right"
+          }
+        },
+        {
+          "name": "rotate-diagonal-1",
+          "css": {
+            "transform": "rotate3d(1, 1, 0, 15deg)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-diagonal-2",
+          "css": {
+            "transform": "rotate3d(1, -1, 0, 15deg)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotate-scale",
+      "subEffects": [
+        {
+          "name": "rotate-scale-up",
+          "css": {
+            "transform": "rotate(15deg) scale(1.1)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-scale-down",
+          "css": {
+            "transform": "rotate(-15deg) scale(0.9)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-scale-up-hor",
+          "css": {
+            "transform": "rotateX(15deg) scaleX(1.1)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-scale-down-hor",
+          "css": {
+            "transform": "rotateX(-15deg) scaleX(0.9)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-scale-up-ver",
+          "css": {
+            "transform": "rotateY(15deg) scaleY(1.1)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-scale-down-ver",
+          "css": {
+            "transform": "rotateY(-15deg) scaleY(0.9)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-scale-up-diag-1",
+          "css": {
+            "transform": "rotate3d(1, 1, 0, 15deg) scale(1.1)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-scale-down-diag-1",
+          "css": {
+            "transform": "rotate3d(1, 1, 0, -15deg) scale(0.9)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-scale-up-diag-2",
+          "css": {
+            "transform": "rotate3d(1, -1, 0, 15deg) scale(1.1)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-scale-down-diag-2",
+          "css": {
+            "transform": "rotate3d(1, -1, 0, -15deg) scale(0.9)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotate-90",
+      "subEffects": [
+        {
+          "name": "rotate-90-cw",
+          "css": {
+            "transform": "rotate(90deg)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-ccw",
+          "css": {
+            "transform": "rotate(-90deg)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-top-cw",
+          "css": {
+            "transform": "rotate(90deg)",
+            "transform-origin": "top",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-top-ccw",
+          "css": {
+            "transform": "rotate(-90deg)",
+            "transform-origin": "top",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-bottom-cw",
+          "css": {
+            "transform": "rotate(90deg)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-bottom-ccw",
+          "css": {
+            "transform": "rotate(-90deg)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-left-cw",
+          "css": {
+            "transform": "rotate(90deg)",
+            "transform-origin": "left",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-left-ccw",
+          "css": {
+            "transform": "rotate(-90deg)",
+            "transform-origin": "left",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-right-cw",
+          "css": {
+            "transform": "rotate(90deg)",
+            "transform-origin": "right",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-right-ccw",
+          "css": {
+            "transform": "rotate(-90deg)",
+            "transform-origin": "right",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-tl-cw",
+          "css": {
+            "transform": "rotate(90deg)",
+            "transform-origin": "top left",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-tl-ccw",
+          "css": {
+            "transform": "rotate(-90deg)",
+            "transform-origin": "top left",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-tr-cw",
+          "css": {
+            "transform": "rotate(90deg)",
+            "transform-origin": "top right",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-tr-ccw",
+          "css": {
+            "transform": "rotate(-90deg)",
+            "transform-origin": "top right",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-br-cw",
+          "css": {
+            "transform": "rotate(90deg)",
+            "transform-origin": "bottom right",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-br-ccw",
+          "css": {
+            "transform": "rotate(-90deg)",
+            "transform-origin": "bottom right",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-bl-cw",
+          "css": {
+            "transform": "rotate(90deg)",
+            "transform-origin": "bottom left",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-bl-ccw",
+          "css": {
+            "transform": "rotate(-90deg)",
+            "transform-origin": "bottom left",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-horizontal-fwd",
+          "css": {
+            "transform": "rotateX(90deg)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-horizontal-bck",
+          "css": {
+            "transform": "rotateX(-90deg)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-vertical-fwd",
+          "css": {
+            "transform": "rotateY(90deg)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        },
+        {
+          "name": "rotate-90-vertical-bck",
+          "css": {
+            "transform": "rotateY(-90deg)",
+            "transition": "transform 0.3s ease-in-out"
+          }
+        }
+      ]
+    },
+    {
+      "name": "flip",
+      "subEffects": [
+        {
+          "name": "flip-horizontal-bottom",
+          "css": {
+            "transform": "rotateX(180deg)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-horizontal-top",
+          "css": {
+            "transform": "rotateX(180deg)",
+            "transform-origin": "top",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-horizontal-bck",
+          "css": {
+            "transform": "rotateX(-180deg)",
+            "transform-origin": "center",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-horizontal-fwd",
+          "css": {
+            "transform": "rotateX(180deg)",
+            "transform-origin": "center",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-vertical-bck",
+          "css": {
+            "transform": "rotateY(-180deg)",
+            "transform-origin": "center",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-vertical-fwd",
+          "css": {
+            "transform": "rotateY(180deg)",
+            "transform-origin": "center",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-vertical-right",
+          "css": {
+            "transform": "rotateY(180deg)",
+            "transform-origin": "right",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-vertical-left",
+          "css": {
+            "transform": "rotateY(180deg)",
+            "transform-origin": "left",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-diagonal-1-tr",
+          "css": {
+            "transform": "rotate3d(1, 1, 0, 180deg)",
+            "transform-origin": "top right",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-diagonal-1-bl",
+          "css": {
+            "transform": "rotate3d(1, 1, 0, 180deg)",
+            "transform-origin": "bottom left",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-diagonal-1-bck",
+          "css": {
+            "transform": "rotate3d(-1, 1, 0, 180deg)",
+            "transform-origin": "center",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-diagonal-1-fwd",
+          "css": {
+            "transform": "rotate3d(1, -1, 0, 180deg)",
+            "transform-origin": "center",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-diagonal-2-br",
+          "css": {
+            "transform": "rotate3d(-1, 1, 0, 180deg)",
+            "transform-origin": "bottom right",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-diagonal-2-tl",
+          "css": {
+            "transform": "rotate3d(-1, 1, 0, 180deg)",
+            "transform-origin": "top left",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-diagonal-2-bck",
+          "css": {
+            "transform": "rotate3d(-1, -1, 0, 180deg)",
+            "transform-origin": "center",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        },
+        {
+          "name": "flip-diagonal-2-fwd",
+          "css": {
+            "transform": "rotate3d(1, 1, 0, 180deg)",
+            "transform-origin": "center",
+            "transition": "transform 0.6s ease-in-out"
+          }
+        }
+      ]
+    },
+    {
+      "name": "flip-2",
+      "subEffects": [
+        {
+          "name": "flip-2-hor-top-1",
+          "css": {
+            "transform": "rotateX(180deg)",
+            "transform-origin": "top",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-hor-top-2",
+          "css": {
+            "transform": "rotateX(-180deg)",
+            "transform-origin": "top",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-hor-top-bck",
+          "css": {
+            "transform": "rotateX(180deg)",
+            "transform-origin": "top",
+            "backface-visibility": "hidden",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-hor-top-fwd",
+          "css": {
+            "transform": "rotateX(180deg)",
+            "transform-origin": "top",
+            "perspective": "1000px",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-hor-bottom-1",
+          "css": {
+            "transform": "rotateX(180deg)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-hor-bottom-2",
+          "css": {
+            "transform": "rotateX(-180deg)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-hor-bottom-bck",
+          "css": {
+            "transform": "rotateX(180deg)",
+            "transform-origin": "bottom",
+            "backface-visibility": "hidden",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-hor-bottom-fwd",
+          "css": {
+            "transform": "rotateX(180deg)",
+            "transform-origin": "bottom",
+            "perspective": "1000px",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-ver-right-1",
+          "css": {
+            "transform": "rotateY(180deg)",
+            "transform-origin": "right",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-ver-right-2",
+          "css": {
+            "transform": "rotateY(-180deg)",
+            "transform-origin": "right",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-ver-right-bck",
+          "css": {
+            "transform": "rotateY(-180deg)",
+            "transform-origin": "right",
+            "backface-visibility": "hidden",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-ver-right-fwd",
+          "css": {
+            "transform": "rotateY(180deg)",
+            "transform-origin": "right",
+            "perspective": "1000px",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-ver-left-1",
+          "css": {
+            "transform": "rotateY(180deg)",
+            "transform-origin": "left",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-ver-left-2",
+          "css": {
+            "transform": "rotateY(-180deg)",
+            "transform-origin": "left",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-ver-left-bck",
+          "css": {
+            "transform": "rotateY(-180deg)",
+            "transform-origin": "left",
+            "backface-visibility": "hidden",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-2-ver-left-fwd",
+          "css": {
+            "transform": "rotateY(180deg)",
+            "transform-origin": "left",
+            "perspective": "1000px",
+            "transition": "transform 0.8s ease"
+          }
+        }
+      ]
+    },
+    {
+      "name": "flip-scale",
+      "subEffects": [
+        {
+          "name": "flip-scale-up-hor",
+          "css": {
+            "transform": "rotateX(180deg) scale(1.2)",
+            "transform-origin": "top",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-scale-down-hor",
+          "css": {
+            "transform": "rotateX(-180deg) scale(0.8)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-scale-up-ver",
+          "css": {
+            "transform": "rotateY(180deg) scale(1.2)",
+            "transform-origin": "left",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-scale-down-ver",
+          "css": {
+            "transform": "rotateY(-180deg) scale(0.8)",
+            "transform-origin": "right",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-scale-up-diag-1",
+          "css": {
+            "transform": "rotate(180deg) scale(1.2)",
+            "transform-origin": "top left",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-scale-up-diag-2",
+          "css": {
+            "transform": "rotate(180deg) scale(1.2)",
+            "transform-origin": "top right",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-scale-down-diag-1",
+          "css": {
+            "transform": "rotate(-180deg) scale(0.8)",
+            "transform-origin": "bottom left",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-scale-down-diag-2",
+          "css": {
+            "transform": "rotate(-180deg) scale(0.8)",
+            "transform-origin": "bottom right",
+            "transition": "transform 0.8s ease"
+          }
+        }
+      ]
+    },
+    {
+      "name": "flip-scale-2",
+      "subEffects": [
+        {
+          "name": "flip-scale-2-hor-top",
+          "css": {
+            "transform": "rotateX(360deg) scale(1.2)",
+            "transform-origin": "top",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-scale-2-ver-right",
+          "css": {
+            "transform": "rotateY(360deg) scale(1.2)",
+            "transform-origin": "right",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-scale-2-hor-bottom",
+          "css": {
+            "transform": "rotateX(-360deg) scale(0.8)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.8s ease"
+          }
+        },
+        {
+          "name": "flip-scale-2-ver-left",
+          "css": {
+            "transform": "rotateY(-360deg) scale(0.8)",
+            "transform-origin": "left",
+            "transition": "transform 0.8s ease"
+          }
+        }
+      ]
+    },
+    {
+      "name": "swing",
+      "subEffects": [
+        {
+          "name": "swing-top-fwd",
+          "css": {
+            "transform": "rotateX(30deg)",
+            "transform-origin": "top",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-top-bck",
+          "css": {
+            "transform": "rotateX(-30deg)",
+            "transform-origin": "top",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-top-right-fwd",
+          "css": {
+            "transform": "rotate3d(1, 1, 0, 30deg)",
+            "transform-origin": "top right",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-top-right-bck",
+          "css": {
+            "transform": "rotate3d(1, 1, 0, -30deg)",
+            "transform-origin": "top right",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-right-fwd",
+          "css": {
+            "transform": "rotateY(30deg)",
+            "transform-origin": "right",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-right-bck",
+          "css": {
+            "transform": "rotateY(-30deg)",
+            "transform-origin": "right",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-bottom-right-fwd",
+          "css": {
+            "transform": "rotate3d(-1, 1, 0, 30deg)",
+            "transform-origin": "bottom right",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-bottom-right-bck",
+          "css": {
+            "transform": "rotate3d(-1, 1, 0, -30deg)",
+            "transform-origin": "bottom right",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-bottom-fwd",
+          "css": {
+            "transform": "rotateX(-30deg)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-bottom-bck",
+          "css": {
+            "transform": "rotateX(30deg)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-bottom-left-fwd",
+          "css": {
+            "transform": "rotate3d(-1, -1, 0, 30deg)",
+            "transform-origin": "bottom left",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-bottom-left-bck",
+          "css": {
+            "transform": "rotate3d(-1, -1, 0, -30deg)",
+            "transform-origin": "bottom left",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-left-fwd",
+          "css": {
+            "transform": "rotateY(-30deg)",
+            "transform-origin": "left",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-left-bck",
+          "css": {
+            "transform": "rotateY(30deg)",
+            "transform-origin": "left",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-top-left-fwd",
+          "css": {
+            "transform": "rotate3d(1, -1, 0, 30deg)",
+            "transform-origin": "top left",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "swing-top-left-bck",
+          "css": {
+            "transform": "rotate3d(1, -1, 0, -30deg)",
+            "transform-origin": "top left",
+            "transition": "transform 0.6s ease"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slide",
+      "subEffects": [
+        {
+          "name": "slide-top",
+          "css": {
+            "transform": "translateY(-100%)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-bottom",
+          "css": {
+            "transform": "translateY(100%)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-left",
+          "css": {
+            "transform": "translateX(-100%)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-right",
+          "css": {
+            "transform": "translateX(100%)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-tl",
+          "css": {
+            "transform": "translate(-100%, -100%)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-tr",
+          "css": {
+            "transform": "translate(100%, -100%)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-bl",
+          "css": {
+            "transform": "translate(-100%, 100%)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-br",
+          "css": {
+            "transform": "translate(100%, 100%)",
+            "transition": "transform 0.6s ease"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slide-bck",
+      "subEffects": [
+        {
+          "name": "slide-bck-center",
+          "css": {
+            "transform": "translateZ(-100px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-bck-top",
+          "css": {
+            "transform": "translateY(-100%) translateZ(-80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-bck-bottom",
+          "css": {
+            "transform": "translateY(100%) translateZ(-80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-bck-left",
+          "css": {
+            "transform": "translateX(-100%) translateZ(-80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-bck-right",
+          "css": {
+            "transform": "translateX(100%) translateZ(-80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-bck-tl",
+          "css": {
+            "transform": "translate(-100%, -100%) translateZ(-80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-bck-tr",
+          "css": {
+            "transform": "translate(100%, -100%) translateZ(-80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-bck-bl",
+          "css": {
+            "transform": "translate(-100%, 100%) translateZ(-80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-bck-br",
+          "css": {
+            "transform": "translate(100%, 100%) translateZ(-80px)",
+            "transition": "transform 0.6s ease"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slide-fwd",
+      "subEffects": [
+        {
+          "name": "slide-fwd-center",
+          "css": {
+            "transform": "translateZ(100px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-fwd-top",
+          "css": {
+            "transform": "translateY(-100%) translateZ(80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-fwd-bottom",
+          "css": {
+            "transform": "translateY(100%) translateZ(80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-fwd-left",
+          "css": {
+            "transform": "translateX(-100%) translateZ(80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-fwd-right",
+          "css": {
+            "transform": "translateX(100%) translateZ(80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-fwd-tl",
+          "css": {
+            "transform": "translate(-100%, -100%) translateZ(80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-fwd-tr",
+          "css": {
+            "transform": "translate(100%, -100%) translateZ(80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-fwd-bl",
+          "css": {
+            "transform": "translate(-100%, 100%) translateZ(80px)",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-fwd-br",
+          "css": {
+            "transform": "translate(100%, 100%) translateZ(80px)",
+            "transition": "transform 0.6s ease"
+          }
+        }
+      ]
+    },
+    {
+      "name": "slide-rotate",
+      "subEffects": [
+        {
+          "name": "slide-rotate-hor-top",
+          "css": {
+            "transform": "rotateX(45deg)",
+            "transform-origin": "top",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-rotate-hor-bottom",
+          "css": {
+            "transform": "rotateX(-45deg)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-rotate-hor-t-bck",
+          "css": {
+            "transform": "rotateX(-90deg)",
+            "transform-origin": "top",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-rotate-hor-b-bck",
+          "css": {
+            "transform": "rotateX(90deg)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-rotate-hor-t-fwd",
+          "css": {
+            "transform": "rotateX(90deg)",
+            "transform-origin": "top",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-rotate-hor-b-fwd",
+          "css": {
+            "transform": "rotateX(-90deg)",
+            "transform-origin": "bottom",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-rotate-ver-right",
+          "css": {
+            "transform": "rotateY(-45deg)",
+            "transform-origin": "right",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-rotate-ver-left",
+          "css": {
+            "transform": "rotateY(45deg)",
+            "transform-origin": "left",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-rotate-ver-r-bck",
+          "css": {
+            "transform": "rotateY(90deg)",
+            "transform-origin": "right",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-rotate-ver-l-bck",
+          "css": {
+            "transform": "rotateY(-90deg)",
+            "transform-origin": "left",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-rotate-ver-r-fwd",
+          "css": {
+            "transform": "rotateY(-90deg)",
+            "transform-origin": "right",
+            "transition": "transform 0.6s ease"
+          }
+        },
+        {
+          "name": "slide-rotate-ver-l-fwd",
+          "css": {
+            "transform": "rotateY(90deg)",
+            "transform-origin": "left",
+            "transition": "transform 0.6s ease"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shadow-drop",
+      "subEffects": [
+        {
+          "name": "shadow-drop-center",
+          "css": {
+            "box-shadow": "0 0 20px rgba(0, 0, 0, 0.35)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-top",
+          "css": {
+            "box-shadow": "0 -10px 20px -10px rgba(0, 0, 0, 0.35)",
+            "transform": "translateY(-10px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-bottom",
+          "css": {
+            "box-shadow": "0 10px 20px -10px rgba(0, 0, 0, 0.35)",
+            "transform": "translateY(10px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-left",
+          "css": {
+            "box-shadow": "-10px 0 20px -10px rgba(0, 0, 0, 0.35)",
+            "transform": "translateX(-10px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-right",
+          "css": {
+            "box-shadow": "10px 0 20px -10px rgba(0, 0, 0, 0.35)",
+            "transform": "translateX(10px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-tl",
+          "css": {
+            "box-shadow": "-10px -10px 20px -10px rgba(0, 0, 0, 0.35)",
+            "transform": "translate(-10px, -10px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-tr",
+          "css": {
+            "box-shadow": "10px -10px 20px -10px rgba(0, 0, 0, 0.35)",
+            "transform": "translate(10px, -10px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-bl",
+          "css": {
+            "box-shadow": "-10px 10px 20px -10px rgba(0, 0, 0, 0.35)",
+            "transform": "translate(-10px, 10px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-br",
+          "css": {
+            "box-shadow": "10px 10px 20px -10px rgba(0, 0, 0, 0.35)",
+            "transform": "translate(10px, 10px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-tb",
+          "css": {
+            "box-shadow": "0 0 25px rgba(0, 0, 0, 0.35)",
+            "transform": "translateY(-10px) translateY(10px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-lr",
+          "css": {
+            "box-shadow": "0 0 25px rgba(0, 0, 0, 0.35)",
+            "transform": "translateX(-10px) translateX(10px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shadow-drop-2",
+      "subEffects": [
+        {
+          "name": "shadow-drop-2-center",
+          "css": {
+            "box-shadow": "0 0 35px rgba(0, 0, 0, 0.5)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-2-top",
+          "css": {
+            "box-shadow": "0 -15px 30px -10px rgba(0, 0, 0, 0.45)",
+            "transform": "translateY(-12px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-2-bottom",
+          "css": {
+            "box-shadow": "0 15px 30px -10px rgba(0, 0, 0, 0.45)",
+            "transform": "translateY(12px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-2-left",
+          "css": {
+            "box-shadow": "-15px 0 30px -10px rgba(0, 0, 0, 0.45)",
+            "transform": "translateX(-12px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-2-right",
+          "css": {
+            "box-shadow": "15px 0 30px -10px rgba(0, 0, 0, 0.45)",
+            "transform": "translateX(12px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-2-tl",
+          "css": {
+            "box-shadow": "-15px -15px 30px -10px rgba(0, 0, 0, 0.45)",
+            "transform": "translate(-12px, -12px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-2-tr",
+          "css": {
+            "box-shadow": "15px -15px 30px -10px rgba(0, 0, 0, 0.45)",
+            "transform": "translate(12px, -12px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-2-bl",
+          "css": {
+            "box-shadow": "-15px 15px 30px -10px rgba(0, 0, 0, 0.45)",
+            "transform": "translate(-12px, 12px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-2-br",
+          "css": {
+            "box-shadow": "15px 15px 30px -10px rgba(0, 0, 0, 0.45)",
+            "transform": "translate(12px, 12px)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-2-tb",
+          "css": {
+            "box-shadow": "0 -15px 30px -10px rgba(0, 0, 0, 0.45), 0 15px 30px -10px rgba(0, 0, 0, 0.45)",
+            "transform": "translateY(0)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        },
+        {
+          "name": "shadow-drop-2-lr",
+          "css": {
+            "box-shadow": "-15px 0 30px -10px rgba(0, 0, 0, 0.45), 15px 0 30px -10px rgba(0, 0, 0, 0.45)",
+            "transform": "translateX(0)",
+            "transition": "box-shadow 0.6s ease, transform 0.6s ease"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shadow-pop",
+      "subEffects": [
+        {
+          "name": "shadow-pop-tr",
+          "css": {
+            "transform": "scale(1.05)",
+            "box-shadow": "10px -10px 20px rgba(0, 0, 0, 0.3)",
+            "transition": "transform 0.4s ease, box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-pop-tl",
+          "css": {
+            "transform": "scale(1.05)",
+            "box-shadow": "-10px -10px 20px rgba(0, 0, 0, 0.3)",
+            "transition": "transform 0.4s ease, box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-pop-br",
+          "css": {
+            "transform": "scale(1.05)",
+            "box-shadow": "10px 10px 20px rgba(0, 0, 0, 0.3)",
+            "transition": "transform 0.4s ease, box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-pop-bl",
+          "css": {
+            "transform": "scale(1.05)",
+            "box-shadow": "-10px 10px 20px rgba(0, 0, 0, 0.3)",
+            "transition": "transform 0.4s ease, box-shadow 0.4s ease"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shadow-inset",
+      "subEffects": [
+        {
+          "name": "shadow-inset-center",
+          "css": {
+            "box-shadow": "inset 0 0 20px rgba(0, 0, 0, 0.4)",
+            "transition": "box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-inset-top",
+          "css": {
+            "box-shadow": "inset 0 -10px 20px rgba(0, 0, 0, 0.4)",
+            "transition": "box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-inset-bottom",
+          "css": {
+            "box-shadow": "inset 0 10px 20px rgba(0, 0, 0, 0.4)",
+            "transition": "box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-inset-left",
+          "css": {
+            "box-shadow": "inset 10px 0 20px rgba(0, 0, 0, 0.4)",
+            "transition": "box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-inset-right",
+          "css": {
+            "box-shadow": "inset -10px 0 20px rgba(0, 0, 0, 0.4)",
+            "transition": "box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-inset-tl",
+          "css": {
+            "box-shadow": "inset 10px 10px 20px rgba(0, 0, 0, 0.4)",
+            "transition": "box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-inset-tr",
+          "css": {
+            "box-shadow": "inset -10px 10px 20px rgba(0, 0, 0, 0.4)",
+            "transition": "box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-inset-bl",
+          "css": {
+            "box-shadow": "inset 10px -10px 20px rgba(0, 0, 0, 0.4)",
+            "transition": "box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-inset-br",
+          "css": {
+            "box-shadow": "inset -10px -10px 20px rgba(0, 0, 0, 0.4)",
+            "transition": "box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-inset-tb",
+          "css": {
+            "box-shadow": "inset 0 -10px 20px rgba(0, 0, 0, 0.4), inset 0 10px 20px rgba(0, 0, 0, 0.4)",
+            "transition": "box-shadow 0.4s ease"
+          }
+        },
+        {
+          "name": "shadow-inset-lr",
+          "css": {
+            "box-shadow": "inset -10px 0 20px rgba(0, 0, 0, 0.4), inset 10px 0 20px rgba(0, 0, 0, 0.4)",
+            "transition": "box-shadow 0.4s ease"
+          }
+        }
+      ]
+    }                                
+  ]
+}
