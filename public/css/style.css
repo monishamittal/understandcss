@@ -17,6 +17,11 @@
     --beige-color:#FCECDD;
 }
 
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
 #playground {
   background: var(--white-color);
   display: flex;
